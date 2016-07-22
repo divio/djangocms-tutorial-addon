@@ -1,0 +1,7 @@
+<a href="{{ instance.url_link }}"
+    {% if instance.link_title %} title="{{ instance.link_title }}"{% endif %}>
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa {{ instance.icon }} fa-stack-1x fa-inverse"></i>
+    </span>
+</a>
