@@ -18,7 +18,7 @@ class SocialIconPlugin(CMSPluginBase):
     name = 'Icon'
     render_template = 'my_custom_social_addon/icon.html'
     require_parent = True
-    parent_classes = ['MultiSlider']
+    parent_classes = ['SocialPlugin']
 
 
 plugin_pool.register_plugin(SocialPlugin)
